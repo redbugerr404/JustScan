@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "JustScan",
+    "slug": "JustScan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/logo.png",
+        "backgroundImage": "./assets/logo.png",
+        "monochromeImage": "./assets/logo.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-barcode-scanner"
+    ]
+  }
+}
